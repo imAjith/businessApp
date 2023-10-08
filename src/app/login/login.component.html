@@ -1,0 +1,37 @@
+<div class="containerr">
+<div class ="">
+    <!-- <img src="/src/assets/images/brand.png" width="40px" height="50px"/> -->
+
+    <!-- <div class="imgplace">
+    </div> -->
+	<div class="col-md-6 mx-auto p-0">
+		<div class="card">
+<div class="login-box">
+	<div class="login-snip">
+       
+		<h1 style="color: white; text-align: center;">LOGIN</h1>
+		<div class="login-space">
+			<div class="login">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input" [(ngModel)]="userName"  placeholder="Enter your username">
+					<small *ngIf="inputField&&userName.length ==0" style="color: red;">Please Enter Username</small>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" [(ngModel)]="password" type="password" class="input" data-type="password" placeholder="Enter your password">
+					<small *ngIf="inputField &&password.length ==0" style="color: red;">Please Enter Password</small>
+				</div>
+				<div class="group submit-btn">
+					<input (click)="loginBtn()" type="submit" class="btn button submit-btn-align" value="Login">
+				</div>
+
+			</div>
+			
+		</div>
+	</div>
+</div>   
+</div>
+</div>
+</div>
+</div>

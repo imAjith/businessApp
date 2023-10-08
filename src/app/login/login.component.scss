@@ -1,0 +1,102 @@
+body{
+	margin:0;
+	color:#6a6f8c;
+	background:#c8c8c8;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+.card{
+	top: 140px;
+	border-radius: 10px;
+	height: 480px;
+}
+
+.login-box{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:480px;
+	border-radius: 10px;
+	position:relative;
+	// background:url(https://images.unsplash.com/photo-1507208773393-40d9fc670acf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80) no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-snip{
+	width:100%;
+	height:100%;
+	border-radius: 10px;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	// background:rgba(0, 77, 77,.9);
+	background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+// .login-space, h1{
+// 	top: 20%;
+//     position: relative;
+// }
+
+.login-snip .tab,
+.login-space .group .label,
+.login-space .group .button{
+	text-transform:uppercase;
+}
+
+.login-space .group{
+	margin-bottom:15px;
+}
+.login-space .group .label,
+.login-space .group .input{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+
+.button{
+	border:none;
+	padding:10px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+	margin-top: 10px;
+}
+.login-space .group .input{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-space .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-space .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-space .group .button{
+	background:#1161ee;
+}
+
+.card{
+	width: 500px;
+	left: 100px;
+}
+
+::placeholder{
+color: #b3b3b3;
+} 
+
+.submit-btn{
+	justify-self: center;
+	// display: flex;
+	text-align: center;
+}
+.submit-btn-align{
+	width: 170px;
+	color: whitesmoke !important;
+}
+.imgplace{
+	width: 30px; /* Set the width of the container */
+    height: 40px; /* Set the height of the container */
+    background-image: url('/src/assets/images/brand.png'); /* Specify the image path */
+    background-size: cover; /* Adjust image sizing as needed */
+}
